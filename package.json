@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/adeiskandarzulkarnaen/express-jsonwebtoken"
+    "url": "https://github.com/adeiskandarzulkarnaen/express-mjwt"
   },
   "bugs": {
-    "url": "https://github.com/adeiskandarzulkarnaen/express-jsonwebtoken/issues"
+    "url": "https://github.com/adeiskandarzulkarnaen/express-mjwt/issues"
   },
   "license": "MIT",
   "main": "dist/index.js",
