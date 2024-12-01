@@ -1,11 +1,11 @@
-# express-mjwt
+# express-middleware-jwt
 
 This module provides ExpressJs middleware to validate JWT via the [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken) module.
 
 ## Install
 
 ```
-$ npm install express-mjwt
+$ npm install express-middleware-jwt
 ```
 
 ## API
@@ -27,7 +27,7 @@ Options has the following parameters:
 Basic usage using an HS256 secret:
 
 ```javascript
-import { authJwt } from 'express-mjwt';
+import { authJwt } from 'express-middleware-jwt';
 
 app.get(
   '/protected',
@@ -58,11 +58,11 @@ authJwt({
 
 ## Typescript
 
-A `JWTRequest` type is provided from `express-mjwt`, which extends `express.Request` with the `auth` property. I
+A `JWTRequest` type is provided from `express-middleware-jwt`, which extends `express.Request` with the `auth` property. I
 
 ```typescript
 import { Response } from 'express';
-import { authJwt, JWTRequest } from 'express-mjwt';
+import { authJwt, JWTRequest } from 'express-middleware-jwt';
 
 app.get(
   "/protected",

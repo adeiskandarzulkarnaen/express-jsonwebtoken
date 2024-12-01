@@ -1,5 +1,5 @@
 {
-  "name": "express-mjwt",
+  "name": "express-middleware-jwt",
   "version": "1.0.0",
   "description": "jwt authentication middleware for ExpressJS",
   "keywords": ["auth", "authentication", "jwt", "jsonwebtoken" ,"token", "express"],
