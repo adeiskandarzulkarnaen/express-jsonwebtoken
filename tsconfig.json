@@ -1,0 +1,13 @@
+{
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules","dist","**/*.test.ts", "**/__test"],
+  "compilerOptions": {
+    "target": "ES6",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "allowJs": true,
+    "declaration": true,
+    "esModuleInterop": false,
+    "strict": true,
+  }
+}
