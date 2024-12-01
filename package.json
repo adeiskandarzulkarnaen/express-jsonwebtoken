@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/adeiskandarzulkarnaen/express-mjwt"
+    "url": "https://github.com/adeiskandarzulkarnaen/express-middleware-jwt"
   },
   "bugs": {
-    "url": "https://github.com/adeiskandarzulkarnaen/express-mjwt/issues"
+    "url": "https://github.com/adeiskandarzulkarnaen/express-middleware-jwt/issues"
   },
   "license": "MIT",
   "main": "dist/index.js",
